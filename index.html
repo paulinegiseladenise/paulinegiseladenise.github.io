@@ -3,14 +3,22 @@
 <head>
     <meta charset="utf-8" />
     <title>ITA på STI</title>
-    <script language="JavaScript">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </script>
+    <script language="JavaScript"></script>
+    <script src="EmptyJSFile.js"></script>
+
+
     <link href="EmptyCSSFile.css" rel="stylesheet" type="text/css">
+    <link href="EmptyJSFile.js" type="text/javascript" />
+
 </head>
 
 
-<main id="front-page">
+
+
+
+
+
+
     <body>
         <a name="top"></a>
         <center>
@@ -18,8 +26,8 @@
             <!--Här i headern har jag tagit en bild på en Eucalyptus från unsplash.com-->
             <header>
                 <img src="https://images.unsplash.com/photo-1611255550543-b5ecb01dfddc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZXVjYWx5cHR1c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" width="500" />
-                <p>Bild lånad från unsplash.com</p>
             </header>
+
 
 
 
@@ -28,17 +36,15 @@
                 <p>
                     Här ska menyn vara
                     <br>
-                    <li><a href="#">Footer</a></li>
+                    <li><a href="https://i.imgur.com/7KkesSR.jpeg">Visa en stor bild på min Eucalyptusplanta.</a></li>
                     <li><a href="#">Header</a></li>
                 </p>
             </nav>
 
 
-            <form>
-                <input type="text" name="name" onBlur="getname(this.value)" value="">
-            </form>
 
 
+            <!--nedanför är knappfunktionen-->
             <!--Kommentar: Välkomsttext nedanför-->
             <div>
                 <p>
@@ -47,7 +53,28 @@
                         <br>... och varmt välkomna ska ni vara till min
                         <br>enkla men fina (enligt mig) hemsida!
                     </h1>
+
+
+
+
+                    <!--Här kan tex ifsatsen vara-->
+                    <button onclick="function()" id="tryck">ifsatsen</button>
+
+
+
+
             </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -78,11 +105,48 @@
                 </p>
             </footer>
 
-        
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-           
+
+
+
+            
+            <label>Tycker du om blommor?</label>
+            <!--Rutan med svar jag-->
+            <div id="Ja">
+                <button onclick="jaSvar()">Ja</button>
+
+                <!--Rutan med svar nej-->
+                <button onclick="nejSvar()">Nej</button>
+            </div>
+
+
+
+
+
+            <textarea id="buttonYes"></textarea>
+            <button onClick="test()" id="vad" type="button">svar</button>
+            <div id="output">my result</div>
+
+
+            <script>
+            function tryck() {
+            var answer = document.getElementById("buttonYes").value;
+            document.getElementById("buttonYes").innerHTML = test();
+            }
+
+
+            function test() {
+            if (answer == "yes")
+            alert ("Kul!");
+            }
+
+            else {
+            alert ("Tråkigt!");
+
+            }
+                </script>
+            
 
         </center>
-        <body>
-</main>
+        </body>
+
 </html>
