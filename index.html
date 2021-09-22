@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>ITA på STI</title>
     <script language="JavaScript"></script>
-    <script src="EmptyJSFile.js"></script>
+    
 
 
     <link href="EmptyCSSFile.css" rel="stylesheet" type="text/css">
@@ -12,119 +12,69 @@
 
 </head>
 
+<body>
+
+
+    <center>
+
+        <!--Här i headern har jag tagit en bild på en Eucalyptus från unsplash.com-->
+        <header>
+            <img src="https://images.unsplash.com/photo-1611255550543-b5ecb01dfddc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZXVjYWx5cHR1c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" width="500" />
+        </header>
 
 
 
+        <!--Här nedanför ska menyn/nav vara-->
+        <nav>
+            <ul>
+                <li>About me</li>
+                <li>Test</li>
+            </ul>
+        </nav>
 
 
 
-
-    <body>
-        <a name="top"></a>
-        <center>
-
-            <!--Här i headern har jag tagit en bild på en Eucalyptus från unsplash.com-->
-            <header>
-                <img src="https://images.unsplash.com/photo-1611255550543-b5ecb01dfddc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZXVjYWx5cHR1c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" width="500" />
-            </header>
-
+        <!--Nedanför är info om mig som beskrivs i en sidebar.-->
+        <aside>
+            <p>
+                Hej, jag heter Pauline, kallas ibland för Greta av mina närmaste (fråga mig inte varför) :) och jag älskar växter även om jag ofta inte alls har gröna fingrar. Dom växter som överlever hemma hos min familj är såna som är tåliga och lättskötta och som jag har lärt mig vilken miljö dom trivs bäst i samt hur ofta de ska vattnas.
+                <br />På denna hemsidan visar jag er hur resultatet av min egensådda silverEucalyptus ser ut.
+                <br />Längst ner på sidan så kan du kontakta mig för frågor.
+            </p>
+        </aside>
 
 
 
-            <!--Här nedanför ska menyn/nav vara-->
-            <nav id="meny">
-                <p>
-                    Här ska menyn vara
-                    <br>
-                    <li><a href="https://i.imgur.com/7KkesSR.jpeg">Visa en stor bild på min Eucalyptusplanta.</a></li>
-                    <li><a href="#">Header</a></li>
-                </p>
-            </nav>
-
-
-
-
-            <!--nedanför är knappfunktionen-->
-            <!--Kommentar: Välkomsttext nedanför-->
-            <div>
-                <p>
-                    <h1>
-                        Hej!
-                        <br>... och varmt välkomna ska ni vara till min
-                        <br>enkla men fina (enligt mig) hemsida!
-                    </h1>
-
-
-
-
-                    <!--Här kan tex ifsatsen vara-->
-                    <button onclick="function()" id="tryck">ifsatsen</button>
-
-
-
-
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!--Gör en klickbar länk link href till tex plantagen eller blomsterlandet för att visa en färdig eucalyptus.-->
-            <!--Efter länken till blomsterlandet så ska det finnas en knapp <button></button> som besökaren ska kunna trycka på för att komma dit-->
-            <!--Kommentar: Gör en enkel meny tex ul eller li-->
-            <div>
-                <p>Nedanför är en bild på min Eucalyptusplanta som jag har odlat från frö.</p>
-                <img src="https://i.imgur.com/7KkesSR.jpeg" width="300px" />
-                <br />
-                <a href="https://www.blomsterlandet.se/produkter/vaxter/utomhus/medelhavsvaxter/silvereukalyptus-35409/">
-                    Tryck på denna länken för att se en liknande på Blomsterlandets hemsida.
-                </a>
-                <br>
-            </div>
-
-
-
-
-            <!--Kommentar: Gör en footer med kontakta mig och att besökaren kan maila mig-->
-            <footer>
-                <p>
-                    Du får gärna maila mig för mer info
-                    <br>om hur jag gick tillväga när jag planterade Eucalyptusfröna.
-                    <br><a href="mailto:pbroangen@hotmail.com">Tryck här för att kontakta mig</a>
-
-
-                </p>
-            </footer>
-
-
-
-
+        <!--nedanför är knappfunktionen-->
+        <!--Kommentar: Välkomsttext nedanför-->
+        <div>
+            <p>
+                <h1>Hej!</h1>
+                    <h2>... och varmt välkomna ska ni vara till min
+                    <br>enkla men fina (enligt mig) hemsida!</h2>
+                
             
-            <label>Tycker du om blommor?</label>
+            <img src="https://i.imgur.com/7KkesSR.jpeg" width="300px" />
+            <br />På ett halvår har plantan vuxit sig såhär stor.
+            <br />
 
-
-            <!--Rutan med svar-->
-            <div id="Ja"></div>
-                <button onclick="jaSvar()">Ja</button>
-
-                <!--Rutan med svar nej-->
-            <div id="Nej"></div>
-                <button onclick="nejSvar()">Nej</button>
-           
-
+            <a href="https://www.blomsterlandet.se/produkter/vaxter/utomhus/medelhavsvaxter/silvereukalyptus-35409/">
+                Tryck på denna länken för att se en liknande på Blomsterlandets hemsida.
+            </a>
+            <br>
+        </div>
 
 
 
 
+        <!--Kommentar: Gör en footer med kontakta mig och att besökaren kan maila mig-->
+        <footer id="footer">
+            <p>
+                Du får gärna maila mig för mer info
+                <br>om hur jag gick tillväga när jag planterade Eucalyptusfröna.
+                <br><a href="mailto:pbroangen@hotmail.com">Tryck här för att kontakta mig</a>
+            </p>
+        </footer>
 
 
 
@@ -135,31 +85,64 @@
 
 
 
-            <textarea id="buttonYes"></textarea>
-            <button onClick="test()" id="vad" type="button">svar</button>
-            <div id="output">my result</div>
+        <!--Nedanför är en massa saker som jag vill göra men inte lyckas......-->
 
 
-            <script>
-            function tryck() {
-            var answer = document.getElementById("buttonYes").value;
-            document.getElementById("buttonYes").innerHTML = test();
+
+        <div id="knappen">
+            <!--nedanför ska jag prova en funktion-->
+            <button onclick="knapp()">Knappen</button>
+
+            <p id="Vill visa knappen"></p>
+        </div>
+
+
+
+
+
+        <label>Tycker du om blommor?</label>
+
+
+        <!--Rutan med svar-->
+        <div id="Ja"></div>
+        <button onclick="jaSvar()">Ja</button>
+
+        <!--Rutan med svar nej-->
+        <div id="Nej"></div>
+        <button onclick="nejSvar()">Nej</button>
+
+
+
+
+
+
+<textarea id="buttonYes"></textarea>
+        <button onClick="test()" id="vad" type="button">svar</button>
+        <div id="output">my result</div>
+
+
+        <script>function tryck() {
+                var answer = document.getElementById("buttonYes").value;
+                document.getElementById("buttonYes").innerHTML = test();
             }
+
+
+
 
 
             function test() {
-            if (answer == "yes")
-            alert ("Kul!");
+                if (answer == "yes")
+                    alert("Kul!");
             }
 
-            else {
-            alert ("Tråkigt!");
+                            else {
+                alert("Tråkigt!");
 
-            }
-                </script>
-            
+            }</script>
 
-        </center>
-        </body>
+        <button onclick="topFunction" id="myBtn">Gå till toppen</button>
 
+    </center>
+</body>
+<script src="EmptyJSFile.js"></script>
 </html>

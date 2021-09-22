@@ -6,6 +6,10 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+nav {
+    float: left;
+}
+
 a {
     color: pink;
     visited: yellow;
@@ -16,10 +20,14 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 header {
 }
 
-output {
+knapp {
     height: 10px;
     width: 400px;
     background-color: orange;
@@ -50,4 +58,17 @@ button {
     color: white;
     border-color: none;
     button-hoover: green;
+}
+
+aside {
+    float: right;
+    width: 200px;
+    text-align: right;
+}
+
+
+#testet {
+
+    width: 100%;
+    background-color: blue;
 }
