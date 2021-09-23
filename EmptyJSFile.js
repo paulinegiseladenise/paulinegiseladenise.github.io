@@ -1,25 +1,21 @@
-﻿    var jaSvar = Ja;
-    var nejSvar = Nej;
+﻿    var ja = (true);
+    var nej = (false);
 
-        function (test);
+        function test();
 
-        if () {
+if (x == true) {
+    console.log("<p>roligt!</p>");
         alert(Åh vad kul!);
         document.getElementById("Ja").innerHTML = 'Åh så roligt, då tycker vi likadant!';
     }
 
-    else nejSvar() {
+    else {
         alert(Åh vad trist!);
         document.getElementById("Nej").innerHTML = 'Nej vad trist. Vi kanske har annat gemensamt!';
     }
 
 
-    jaSvar();
-    nejSvar();
-
-
-
-
+test();
 
 
 
@@ -31,9 +27,6 @@ function topFunction() {
 }
 
             topFunction();
-
-
-
 
 
 

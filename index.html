@@ -11,11 +11,9 @@
     <link href="EmptyJSFile.js" type="text/javascript" />
 
 </head>
-
+<center>
 <body>
 
-
-    <center>
 
         <!--Här i headern har jag tagit en bild på en Eucalyptus från unsplash.com-->
         <header>
@@ -24,11 +22,11 @@
 
 
 
-        <!--Här nedanför ska menyn/nav vara-->
+        <!--Här nedanför ska menyn/nav vara med länk till sida 2.-->
         <nav>
             <ul>
-                <li>About me</li>
-                <li>Test</li>
+                <a href="EmptyHtmlFile.html"><li>Om sajten</li></a>
+                <li>Test: Tycker du om blommor?</li>
             </ul>
         </nav>
 
@@ -38,15 +36,15 @@
         <aside>
             <p>
                 Hej, jag heter Pauline, kallas ibland för Greta av mina närmaste (fråga mig inte varför) :) och jag älskar växter även om jag ofta inte alls har gröna fingrar. Dom växter som överlever hemma hos min familj är såna som är tåliga och lättskötta och som jag har lärt mig vilken miljö dom trivs bäst i samt hur ofta de ska vattnas.
-                <br />På denna hemsidan visar jag er hur resultatet av min egensådda silverEucalyptus ser ut.
+                <br />På denna hemsidan visar jag er hur resultatet av min egensådda SilveeEucalyptus ser ut.
                 <br />Längst ner på sidan så kan du kontakta mig för frågor.
             </p>
         </aside>
 
 
 
-        <!--nedanför är knappfunktionen-->
-        <!--Kommentar: Välkomsttext nedanför-->
+        
+        <!--Välkomsttext nedanför och bild på min planta samt länk till Blomsterlandet-->
         <div>
             <p>
                 <h1>Hej!</h1>
@@ -59,7 +57,7 @@
             <br />
 
             <a href="https://www.blomsterlandet.se/produkter/vaxter/utomhus/medelhavsvaxter/silvereukalyptus-35409/">
-                Tryck på denna länken för att se en liknande på Blomsterlandets hemsida.
+                (tryck på denna länken för att se en liknande på Blomsterlandets hemsida.)
             </a>
             <br>
         </div>
@@ -89,60 +87,34 @@
 
 
 
-        <div id="knappen">
-            <!--nedanför ska jag prova en funktion-->
-            <button onclick="knapp()">Knappen</button>
-
-            <p id="Vill visa knappen"></p>
-        </div>
+    
 
 
 
+        <!--Nedan vill jag göra en if-sats-->
+        <div id="Test">
+            <label>Tycker du om blommor?</label>
 
+        
+        <!--Knappen med svar ja-->
+        <br /><button onclick="test()">Ja</button>
+           
 
-        <label>Tycker du om blommor?</label>
-
-
-        <!--Rutan med svar-->
-        <div id="Ja"></div>
-        <button onclick="jaSvar()">Ja</button>
-
-        <!--Rutan med svar nej-->
-        <div id="Nej"></div>
-        <button onclick="nejSvar()">Nej</button>
+        <!--Knappen med svar nej-->
+        <br /><button onclick="test()">Nej</button>
+            </div>
 
 
 
 
 
 
-<textarea id="buttonYes"></textarea>
-        <button onClick="test()" id="vad" type="button">svar</button>
-        <div id="output">my result</div>
 
-
-        <script>function tryck() {
-                var answer = document.getElementById("buttonYes").value;
-                document.getElementById("buttonYes").innerHTML = test();
-            }
-
-
-
-
-
-            function test() {
-                if (answer == "yes")
-                    alert("Kul!");
-            }
-
-                            else {
-                alert("Tråkigt!");
-
-            }</script>
-
+        <!--Nedanför gjorde jag en extraknapp för att komma till toppen av sidan-->
         <button onclick="topFunction" id="myBtn">Gå till toppen</button>
 
-    </center>
+
 </body>
+    </center>
 <script src="EmptyJSFile.js"></script>
 </html>

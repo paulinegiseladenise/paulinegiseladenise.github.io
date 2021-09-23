@@ -6,8 +6,32 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+header {
+}
+
 nav {
     float: left;
+}
+
+div {
+    border-style: dotted;
+    border-color: black;
+    width: 700px;
+    margin: 20px;
+}
+
+aside {
+    float: right;
+    width: 200px;
+    text-align: right;
+}
+
+footer {
+    font-size: 15px;
+    border-style: dotted;
+    border-color: black;
+    width: 500px;
+    margin: 10px;
 }
 
 a {
@@ -24,30 +48,8 @@ h2 {
     font-size: 30px;
 }
 
-header {
-}
-
-knapp {
-    height: 10px;
-    width: 400px;
-    background-color: orange;
-    border: dashed;
-}
-
-
-div {
-    border-style: dotted;
-    border-color: black;
-    width: 700px;
-    margin: 10px;
-}
-
-footer {
-    font-size: 15px;
-    border-style: dotted;
-    border-color: black;
-    width: 500px;
-    margin: 10px;
+li {
+    text-align: left;
 }
 
 button {
@@ -60,15 +62,15 @@ button {
     button-hoover: green;
 }
 
-aside {
-    float: right;
-    width: 200px;
-    text-align: right;
+Ja {
+    width: 100px;
+}
+
+Nej {
+    width: 100px;
 }
 
 
-#testet {
 
-    width: 100%;
-    background-color: blue;
-}
+
+
