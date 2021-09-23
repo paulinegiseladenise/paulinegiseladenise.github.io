@@ -1,21 +1,32 @@
-﻿    var ja = (true);
-    var nej = (false);
+﻿    var test = (true);
+   
 
         function test();
-
-if (x == true) {
-    console.log("<p>roligt!</p>");
-        alert(Åh vad kul!);
+{
+    if (x == true) {
+        console.log("<p>roligt!</p>");
+        alert("Åh vad kul!");
         document.getElementById("Ja").innerHTML = 'Åh så roligt, då tycker vi likadant!';
     }
 
     else {
-        alert(Åh vad trist!);
+        alert("Åh vad trist!");
         document.getElementById("Nej").innerHTML = 'Nej vad trist. Vi kanske har annat gemensamt!';
     }
-
+}
 
 test();
+
+
+
+
+
+
+
+
+
+
+
 
 
 

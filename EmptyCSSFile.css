@@ -18,12 +18,13 @@ div {
     border-color: black;
     width: 700px;
     margin: 20px;
+    
 }
 
 aside {
     float: right;
     width: 200px;
-    text-align: right;
+    text-align: left;
 }
 
 footer {
@@ -46,6 +47,7 @@ h1 {
 
 h2 {
     font-size: 30px;
+    text-align: center;
 }
 
 li {
@@ -62,12 +64,8 @@ button {
     button-hoover: green;
 }
 
-Ja {
-    width: 100px;
-}
-
-Nej {
-    width: 100px;
+#test {
+    width: 500px;
 }
 
 
