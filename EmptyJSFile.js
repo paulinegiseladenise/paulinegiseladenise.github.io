@@ -1,68 +1,58 @@
-﻿    var test = (true);
-   
+﻿    var Ja = true;
+    var Nej = false;
 
-        function test();
-{
-    if (x == true) {
-        console.log("<p>roligt!</p>");
+
+        function test()
+        {
+            if (Ja = false) {
         alert("Åh vad kul!");
         document.getElementById("Ja").innerHTML = 'Åh så roligt, då tycker vi likadant!';
     }
 
     else {
         alert("Åh vad trist!");
-        document.getElementById("Nej").innerHTML = 'Nej vad trist. Vi kanske har annat gemensamt!';
+        document.getElementById("Nej").innerHTML = 'Vi kanske har annat gemensamt!';
+    }
+        }
+
+var theButton = document.getElementById("Ja");
+var theButton = document.getElementById("Nej");
+
+theButton.addEventListener("click", function () {
+    test();
+
+
+});
+
+
+
+
+
+var mittNummer = 5;
+
+function numret() {
+    for (var mittNummer = 0; mittNummer < 5; mittNummer++) {
+        
+        alert("Min forloop som utför något 5 gånger");
     }
 }
 
-test();
+    var theNumber = document.getElementById("Min forloop");
+
+    theNumber.addEventListener("click", function () {
+    
+numret();
+
+});
 
 
 
 
 
 
+try {
+    nonExistentFunction();
 
-
-
-
-
-
-
-
-
-        var myButton = document.getElementById("myBtn");
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+} catch (error) {
+    console.error(error);
 }
-
-            topFunction();
-
-
-
-            var knapp = document.getElementById('knapppppp');
-           
-
-        function knapp() {
-            console.log("<p>Knappen är här</p>");
-            
-         
-        }
-
-            function andraknapp() {
-                document.getElementById(knaaaapp).innerHTML = "<p>oj vad hände nu</p>";
-
-                document.getElementById("knappen");
-            }
-
-
-           
-
-            andraknapp();
-
-            knapp();
-
-
-
-         

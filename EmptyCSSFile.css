@@ -7,31 +7,42 @@
 }
 
 header {
+    position: center;
 }
 
 nav {
-    float: left;
+    background-color: darkolivegreen;
+    color: silver;
+    width: 90%;
+    float: center;
+    border: solid;
+    margin: 20px;
+    display: grid;
 }
 
 div {
-    border-style: dotted;
+    background-color: white;
+    border-style: solid;
     border-color: black;
     width: 700px;
     margin: 20px;
-    
 }
 
 aside {
-    float: right;
-    width: 200px;
+    background-color: white;
+    float: left;
+    width: 250px;
+    margin: 20px;
     text-align: left;
+    border: solid;
 }
 
 footer {
+    background-color: white;
     font-size: 15px;
-    border-style: dotted;
+    border-style: solid;
     border-color: black;
-    width: 500px;
+    width: 700px;
     margin: 10px;
 }
 
@@ -58,15 +69,12 @@ button {
     width: 400px;
     font-family: 'Times new roman', Times, serif;
     font-size: 20px;
-    background-color: black;
-    color: white;
-    border-color: none;
+    background-color: darkolivegreen;
+    color: silver;
+    border-color: darkolivegreen;
     button-hoover: green;
 }
 
-#test {
-    width: 500px;
-}
 
 
 
